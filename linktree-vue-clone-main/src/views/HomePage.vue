@@ -3,10 +3,10 @@ import { ref } from 'vue'
 import LinkCard from '@/components/LinkCard.vue'
 
 const profile = ref({
-  name: 'Rodolfo Roman',
-  slogan: 'Full Stack Developer and Teacher',
+  name: 'Hector Lugo',
+  slogan: 'CITP Student Future Cloud Security Professional',
   avatar:
-    'https://api.dicebear.com/9.x/avataaars/svg?seed=Jack&accessories=sunglasses&accessoriesColor=25557c&accessoriesProbability=90&clothesColor=25557c&clothing=hoodie&clothingGraphic=pizza&eyebrows=defaultNatural&eyes=default&facialHair[]&facialHairColor[]&facialHairProbability=0&hairColor=4a312c&hatColor[]&mouth=twinkle&skinColor=edb98a&top=shortFlat&backgroundColor=c0aede',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEP8qqnnnbzLHgHwn5QBrVvzSvF-XH6jebsQ&s',
 })
 </script>
 
