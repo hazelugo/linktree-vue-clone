@@ -53,6 +53,7 @@ const profile = ref({
         :title="link.title"
         :url="link.url"
         :description="link.description"
+        :icon="link.icon"
       />
     </div>
 
