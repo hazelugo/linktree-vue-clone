@@ -61,6 +61,34 @@ const bio = ref({
           </span>
         </div>
       </div>
+
+      <!-- Contact -->
+      <div>
+        <h2 class="mb-3 text-lg font-semibold text-white">Get in Touch</h2>
+        <a
+          :href="`mailto:${bio.email}`"
+          class="group inline-flex items-center gap-2 rounded-xl bg-green-500 px-6 py-3 font-medium text-white shadow-lg shadow-green-500/30 transition-all duration-200 hover:scale-105 hover:bg-green-600 hover:shadow-xl hover:shadow-green-500/40 active:scale-95"
+        >
+          <svg
+            data-slot="icon"
+            data-darkreader-inline-stroke=""
+            aria-hidden="true"
+            fill="none"
+            stroke-width="1.5"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 transition-transform duration-200 group-hover:rotate-12"
+          >
+            <path
+              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          Send Email</a
+        >
+      </div>
     </div>
   </main>
 </template>
