@@ -7,6 +7,22 @@ const profile = ref({
   slogan: 'CITP Student Future Cloud Security Professional',
   avatar:
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEP8qqnnnbzLHgHwn5QBrVvzSvF-XH6jebsQ&s',
+  links: [
+    {
+      id: 1,
+      title: 'GitHub',
+      url: 'https://github.com/hazelugo',
+      icon: 'code',
+      description: 'Check out my projects on GitHub.',
+    },
+    {
+      id: 2,
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/hhlugo/',
+      icon: 'briefcase',
+      description: 'Connect with me professionally on LinkedIn.',
+    },
+  ],
 })
 </script>
 
