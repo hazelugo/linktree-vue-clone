@@ -1,6 +1,23 @@
+<script setup>
+defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  url: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    default: '',
+  },
+})
+</script>
+
 <template>
   <a
-    href="#"
+    :href="url"
     target="_blank"
     rel="noopener noreferrer"
     class="group relative flex w-full items-center gap-4 rounded-xl border border-gray-700 bg-gray-800 p-4 shadow-md shadow-gray-900/50 transition-all duration-300 hover:scale-[1.02] hover:border-green-600 hover:shadow-xl hover:shadow-green-500/20"
@@ -26,9 +43,9 @@
 
     <!-- Text Content -->
     <div class="min-w-0 flex-1">
-      <h3 class="truncate font-display font-semibold text-white">Link Title</h3>
+      <h3 class="truncate font-display font-semibold text-white">{{ title }}</h3>
       <p class="truncate text-sm text-gray-400">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        {{ description }}
       </p>
     </div>
 
