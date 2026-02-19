@@ -22,6 +22,20 @@ const profile = ref({
       icon: 'briefcase',
       description: 'Connect with me professionally on LinkedIn.',
     },
+    {
+      id: 3,
+      title: 'Expense Splitter (Vue)',
+      description: 'A tool for splitting expenses among friends.',
+      icon: 'code',
+      url: 'https://expense-splitter-vue.hlugo.workers.dev/',
+    },
+    {
+      id: 4,
+      title: 'Expense Splitter (Github Repository)',
+      description: 'The code behind the web app.',
+      icon: 'code',
+      url: 'https://portfolio.hlugo.workers.dev/',
+    },
   ],
 })
 </script>
